@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="bmi.css">
+    <link rel="shortcut icon" type="image" href="../img/logo white.png">
+</head>
+
+<body>
+    <div class="top">
+        <a href="../index.html"><img src="../img/logo black.png" alt=""></a>
+        <div class="topnav">
+            <a href="../index.html">Home</a>
+            <a class="active" href="../BMI/bmi.html">BMI</a>
+            <a href="../Service/service.html">Service</a>
+            <a href="../About/about.html">About</a>
+        </div>
+    </div>
+    <div class="tot">
+        <div class="font">
+            <h1 class="bmi">BMI</h1>
+            <h1 class="exp">Body Mass Index</h1>
+            <p>Body Mass Index is a simple calculation using a person's height and weight. The formula is BMI = kg/m2
+                where kg is a person's weight in kilograms and m2 is their height in metres squared. A BMI of 25.0 or
+                more is overweight, while the healthy range is 18.5 to 24.9.</p>
+        </div>
+    </div>
+    <div class="box">
+        <form class="form" onsubmit="cal(event)">
+            <h2 class="login">BMI Calculator</h2>
+            <div class="form-group">
+                <input type="text" class="form-control" required placeholder="Name">
+            </div>
+            <div class="form-group">
+                <input id="age" type="number" class="form-control" required placeholder="Age (above 19)">
+            </div>
+            <div class="bmf">
+                <input type="radio" id="m" name="hi" placeholder="Email">
+                <p>Male</p>
+                <input type="radio" id="f" name="hi" placeholder="Email">
+                <p>Female</p>
+            </div>
+            <br>
+            <div class="form-group">
+                <input id="height" type="number" class="form-control height-inp" required placeholder="Height (in cm)">
+            </div>
+            <div class="form-group">
+                <input id="weight" type="number" class="form-control weight-inp" required placeholder="Weight (in kg)">
+            </div>
+            <div class="form-group">
+                <p>Your BMI is:
+                <p id="answer" class="bmi_val"> 0</p>
+                </p>
+            </div>
+            <div class="bottom-box">
+                <button type="submit" class="form-button" onclick="cal()">Calculate</button>
+            </div>
+            <div class="bro">
+                <a style="color: black;" href="../Service/service.html">
+                    <p>Browse Our Packages</p>
+                </a>
+            </div>
+        </form>
+    </div>
+    <script src="bmi.js"></script>
+</body>
+
+</html>

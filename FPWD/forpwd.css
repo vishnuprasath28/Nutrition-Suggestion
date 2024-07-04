@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-image: url("../img/vintage-old-rustic-cutlery-dark.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+animation: trans 2s;
+}
+.box{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    margin-top: 10px;
+    font-weight: 400px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: white;
+}
+.form{
+    width: 400px;
+    min-height: 350px;
+    max-height: 600px;
+    box-shadow: rgb(255, 255, 255) 0px 20px 30px -10px;
+    padding: 32px;
+    background-color: transparent;
+    border-radius: 8px;
+    /* margin-left: 30%; */
+    margin-bottom: 100px;
+}
+.form-group{
+    margin-bottom: 20px;
+    height: 48px;
+}
+.form-control{
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid gray;
+    padding: 15px;
+    border-radius: 5px;
+    z-index: 1;
+}
+.form-label{
+    top:15px;
+    left:15px;
+    padding: 0 15px;
+    background-color:transparent;
+    color: white;
+    font-size: 14px;
+}
+.bottom-box{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bottom-box a{
+    text-decoration: none;
+    color:white;
+    font-size: 17px;
+    font-weight: 500px;
+}
+.form-button{
+    display: block;
+    padding: 12px 32px;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .3s;
+    background-color: black;
+}
+.form-button:hover{
+    box-shadow: rgb(255, 255, 255) 0px 20px 30px -10px;
+}
+img{
+    max-width: 20vh;
+}
+.haveac {
+    display: flex;
+    color: white;
+}
+.haveac p{
+    padding-right: 10px;
+}
+.haveac a{
+    text-decoration: none;
+    color:white;
+}
+.topnav {
+    overflow: hidden;
+  } 
+.topnav a {
+    float: left;
+    color:white;
+    margin-top: 9%;
+    height: auto;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    transition: .10s;
+    text-decoration: underline;
+  }  
+.topnav a.active {
+    background-color:#F9D0B0;
+    color: black;
+    text-decoration: underline;
+  }
+.top{
+    display: flex;
+    justify-content:space-between;
+    margin-right: 40px;
+    background-color: transparent;
+}
+@keyframes trans {
+    0%{
+        opacity: 0;
+        background-color: #EEEFF1;
+    }
+    100%{
+        opacity: 1;
+    }
+}

@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+@keyframes trans {
+    0%{
+        opacity: 0;
+        background-color: #EEEFF1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+body{
+    background-image: url(img/2564930-depositphotos-bgremover.png);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #EEEFF1;
+    animation: trans 2s;
+}
+
+img{
+    margin-top: 10px;
+    max-width: 20vh;
+}
+.bio{
+    font-family: 'Russo One', sans-serif;
+    font-weight: bolder;
+    font-size: 20vh;
+    color:#be7b5b ;
+    position: absolute;
+    transition: 0.3s;
+}
+.bio:hover{
+    font-size: 25vh;
+}
+.food:hover{
+    font-size: 15vh;
+}
+a{
+    text-decoration: none;
+}
+.food{
+    margin-left: 22vh;
+    margin-top: 20%;
+    position: absolute;
+    font-family: 'Great Vibes', cursive;
+    font-size: 12vh;
+    color: #656565;
+    transition: 0.3s;
+}
+.tot{
+    margin: 10vh 10vh;
+    width: 350px;
+}
+.font{
+    position: relative;
+}
+.para{
+    margin-top: 50%;
+    position: absolute;
+    font-weight: bold;
+    font-size: 2vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.logbut{
+    display: flex;
+    justify-content: space-around;
+}
+#login{
+    background-color: transparent;
+    color: #be7b5b;
+    margin-top: 90%;
+    border: none;
+    font-weight:bolder;
+    font-size: large;
+    transition: 0.3s;
+}
+#signup{
+    background-color: transparent;
+    color: #be7b5b;
+    margin-top: 90%;
+    border: none;
+    font-weight: bolder;
+    font-size: large;
+    transition: 0.3s;
+}
+#signup:hover{
+    color: black;
+    font-size: small;
+}
+#login:hover{
+    color: black;
+    font-size: small;
+}
+.topnav {
+    overflow: hidden;
+  } 
+.topnav a {
+    float: left;
+    color:white;
+    margin-top: 9%;
+    height: auto;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    transition: .10s;
+    text-decoration: underline;
+  }  
+.topnav a.active {
+    background-color:#F9D0B0;
+    color: black;
+    text-decoration: underline;
+  }
+.top{
+    display: flex;
+    justify-content:space-between;
+    margin-right: 40px;
+    background-color: transparent;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 350px;
+    margin-top: 100px;
+    font-size: 25px;
+}
+.twitter:hover{
+    color: rbg(255, 255, 255);
+}

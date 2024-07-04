@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bro{
+    text-align: center;
+    padding: 20px;
+}
+body{
+background-image: url("../img/close-up-delicious-organic-apple-with-copy-space.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+animation: trans 2s ;
+}
+.box{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    margin-top: 10px;
+    font-weight: 400px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: black;
+}
+.form{
+    width: 400px;
+    min-height: 300px;
+    max-height: 550px;
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+    padding: 32px;
+    background-color: transparent;
+    border-radius: 8px;
+    margin-bottom: 100px;
+}
+.form-group{
+    margin-bottom: 20px;
+    display: flex;
+}
+.form-control{
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid gray;
+    padding: 15px;
+    border-radius: 5px;
+    z-index: 1;
+}
+.form-label{
+    top:15px;
+    left:15px;
+    padding: 0 15px;
+    background-color:transparent;
+    color: white;
+    font-size: 14px;
+}
+.bmf{
+    display: flex;
+    justify-content: space-evenly;
+}
+.bottom-box{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bottom-box a{
+    text-decoration: none;
+    color:white;
+    font-size: 17px;
+    font-weight: 500px;
+}
+.form-button{
+    display: block;
+    padding: 12px 32px;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    background-color: black;
+}
+.form-button:hover{
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+    cursor: pointer;
+}
+img{
+    max-width: 20vh;
+}
+.topnav {
+    overflow: hidden;
+} 
+.topnav a {
+    float: left;
+    color:black;
+    margin-top: 9%;
+    height: auto;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    transition: .10s;
+    text-decoration: underline;
+  }  
+.topnav a.active {
+    background-color:#F9D0B0;
+    color: black;
+    text-decoration: underline;
+  }
+.top{
+    display: flex;
+    justify-content:space-between;
+    margin-right: 40px;
+    background-color: transparent;
+}
+.bmi{
+    margin-top: 10vh;
+    margin-left: 2vh;
+    font-family: 'Russo One', sans-serif;
+    font-weight: bolder;
+    font-size: 20vh;
+    color:#be7b5b ;
+    position: absolute;
+}
+.exp{
+    margin-top: 27vh;
+    margin-left: 2vh;
+    position: absolute;
+    font-family: 'Great Vibes', cursive;
+    font-size: 6vh;
+    color: #656565;
+}
+.font{
+    position: relative;
+    /* min-width: 500px; */
+}
+.font p{
+    /* width: 500px; */
+    margin-top: 35vh;
+    position: absolute;
+    font-weight: bold;
+    font-size: 2vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-left: 2vh;
+}
+.tot{
+    width: 350px;
+    align-items: center;
+}
+@keyframes trans {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.bmi_val{
+    margin-left: 5px;
+}
